@@ -1,0 +1,28 @@
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  p {
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
