@@ -26,3 +26,15 @@ h1 {
     margin: 0 auto;
     padding: 0 20px;
   }
+
+
+  .form h2 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  .form h3 {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+  }
