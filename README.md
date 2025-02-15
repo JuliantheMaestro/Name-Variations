@@ -1,0 +1,1 @@
+This project will utilize Javascript, HTML and CSS to make a table that displays information such as character count about the input that the user puts in the input field. It will do so with keyup on event so the information about the text is being processed in real time.
