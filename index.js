@@ -8,3 +8,6 @@ const answer6 = document.querySelector("#answer6");
 
 
 const name = document.querySelector("#your-name");
+
+name.addEventListener("keyup", () => {
+    const value = name.value;
