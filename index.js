@@ -9,5 +9,15 @@ const answer6 = document.querySelector("#answer6");
 
 const name = document.querySelector("#your-name");
 
+function getNumberOfChars(name) {
+    return name.length;
+}
+
+function getFirstChar(name) {
+    return name[0];
+}
+
 name.addEventListener("keyup", () => {
     const value = name.value;
+
+    answer1.textContent = getNumberOfChars(value);})
