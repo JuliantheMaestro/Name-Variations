@@ -21,3 +21,4 @@ name.addEventListener("keyup", () => {
     const value = name.value;
 
     answer1.textContent = getNumberOfChars(value);})
+    answer2.textContent = getFirstChar(value); 
