@@ -17,8 +17,13 @@ function getFirstChar(name) {
     return name[0];
 }
 
+function getLastChar(name) {
+    return name.at(-1);
+}
+
 name.addEventListener("keyup", () => {
     const value = name.value;
 
     answer1.textContent = getNumberOfChars(value);})
     answer2.textContent = getFirstChar(value); 
+    answer3.textContent = getLastChar(value);
