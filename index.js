@@ -21,9 +21,14 @@ function getLastChar(name) {
     return name.at(-1);
 }
 
+function getLower(name) {
+    return name.toLowerCase();
+}
+
 name.addEventListener("keyup", () => {
     const value = name.value;
 
     answer1.textContent = getNumberOfChars(value);})
     answer2.textContent = getFirstChar(value); 
     answer3.textContent = getLastChar(value);
+    answer4.textContent = getLower(value);
