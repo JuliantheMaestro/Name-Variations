@@ -29,11 +29,17 @@ function getUpper(name) {
     return name.toUpperCase();
 }
 
+funciton getCapitalized(name) {
+    return `${name[0].toUpperCase()}${name.substring(1).toLowerCase()}`
+}
+
 name.addEventListener("keyup", () => {
     const value = name.value;
 
-    answer1.textContent = getNumberOfChars(value);})
+    answer1.textContent = getNumberOfChars(value);
     answer2.textContent = getFirstChar(value); 
     answer3.textContent = getLastChar(value);
     answer4.textContent = getLower(value);
     answer5.textContent = getUpper(value);
+
+})
