@@ -42,4 +42,7 @@ name.addEventListener("keyup", () => {
     answer4.textContent = getLower(value);
     answer5.textContent = getUpper(value);
 
+    if (value) {
+        answer6.textContent = getCapitalized(value);
+
 })
