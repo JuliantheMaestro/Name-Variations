@@ -44,5 +44,8 @@ name.addEventListener("keyup", () => {
 
     if (value) {
         answer6.textContent = getCapitalized(value);
+    } else {
+        answer6.textContent = "";
+    }
 
 })
