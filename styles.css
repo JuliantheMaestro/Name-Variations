@@ -38,3 +38,14 @@ h1 {
     font-weight: 300;
     margin-bottom: 15px;
   }
+
+  .btn {
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 13px 40px;
+    border: 0;
+    transition: background-color 200ms, color 200ms;
+  }
